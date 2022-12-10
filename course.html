@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to All About Joseph</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="course.html">PLANS & VALUES</a></li>
+                  <li><a href="blog.html">FUTURE GOALS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>What I Look Forward to in The Future</h1>
+    </section>
+
+<!---------- Blog Page Content ---------->
+
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/banner.jpg">
+        <h2>Here are some of my favorite qoutes about the Future</h2>
+
+        <p style="color:orange;">"The vast possibilities of our great future will become realities only if we make ourselves responsible for that future." ~ Gifford Pinchot</p>
+        <br>
+        <p style="color:orange;">"It was never easy to look into the future, but it is possible and we should not miss our chance." ~ Andrei Linde</p>
+        <br>
+        <p style="color:orange;">"Thou knowest the past but not the future. As to what is future, even a bird with a long neck can not see it, but God only." ~ Anonymous</p>
+        <br>
+        <p style="color:orange;">"Once you have glimpsed the world as it might be, it is impossible to live anymore complacent in the world as it is." ~ Anonymous</p>
+
+        <div class="comment-box">
+            <h3>Leave a comment of your own future goals</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Future Goals"></textarea>
+                    <button type="submit" class="hero-btn green-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="blog-right">
+
+
+            <h3>Things I would love to have in 5 Years</h3>
+            <div>
+                <span>Houses</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Degrees</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Cars</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Oversea Getaway Home</span>
+                <span>1</span>
+            </div>
+            <div>
+                <span>Air BnBs</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Businesses</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Personal RV</span>
+                <span>1</span>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+
+<!-------- footer ---------->
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

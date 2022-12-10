@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to All About Joseph</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="course.html">PLANS & VALUES</a></li>
+                  <li><a href="blog.html">FUTURE GOALS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>All about Joseph Ezeugo</h1>
+            <p style="color:orange;">I created this page for my final project. I utilized HTML and CSS. Please enjoy looking around.</p>
+            <a href="https://www.linkedin.com/in/joseph-ezeugo-705420222/" class="hero-btn">You can connect with me here.</a>
+        </div>
+    </section>
+
+<!---------- Facilities ---------->
+
+        <section class="facility">
+            <h1>My Hobbies</h1>
+            <p>A table showing the top 3 things I like to do in my spare time.</p>
+                <div class="row">
+                    <div class="facility-col">
+                        <img src="images/library.jpg">
+                        <h3>Reading</em></h3>
+                        <p>I enjoy reading books new and old. Enjoying new genres and authors while escaping the real world.</p>
+                    </div>
+                    <div class="facility-col">
+                        <img src="images/soccer.jpg">
+                        <h3>Soccer</em></h3>
+                        <p>I grew up playing soccer and the love I have for the sport is immense.</p>
+                    </div>
+                    <div class="facility-col">
+                        <img src="images/cooking.jpg">
+                        <h3>Cooking</em></h3>
+                        <p>I learned how to cook by watching my Nigerian mom cook for us as we grew up. I enjoy cooking till this day.</p>
+                    </div>
+                </div>
+        </section>
+
+<!-------- footer ---------->
+<!-------- footer ---------->
+<!-------- footer ---------->
+<!-------- footer ---------->
+<!---------- campus ---------->
+
+    <section class="campus">
+        <h1>My Social Media Pages</h1>
+        <p style="color:orange;">You can check out my favorite youtube page, connect with me on LinkedIn or even follow me on IG.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/youtube.jpg">
+                    <a href="https://www.youtube.com/@comicstorian">
+                    <div class="layer">
+                        <h3>My Favorite Youtube Channel</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/background1.jpg">
+                    <a href="https://www.linkedin.com/in/joseph-ezeugo-705420222/">
+                    <div class="layer">
+                        <h3>My LinkedIn</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/instagram.jpg">
+                    <a href="https://instagram.com/1kingezeugo?igshid=YmMyMTA2M2Y=">
+                    <div class="layer">
+                        <h3>Instagram</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!-------- footer ---------->
+
+
+<!-------- footer ---------->
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

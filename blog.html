@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to All About Joseph</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">PLANS & VALUES</a></li>
+                    <li><a href="blog.html">FUTURE GOALS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>My Timeline & My Values</h1>
+    </section>
+
+
+<!---------- course ----------->
+
+    <section class="course">
+        <h1><i>Current Timeline</i></h1>
+        <p>This is what my plans are looking like for the foreseeable future.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p>I plan to go ahead and complete this college degree and graduate with a major in IT with a double minor in Psychology and Philosophy.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The goal after graduation is to work for a tech company or work from home for a small startup. I'm looking at the big three at the moment: Apple, Microsoft, and Google.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Job</h3>
+                <p>After I've been offered a position I plan to work for 1-2 years and then begin to enjoy life and maybe travel around the world.</p>
+            </div>
+        </div>
+    </section>
+
+<!---------- Facilities ---------->
+
+    <section class="facility">
+        <h1>My Top 3 Values</h1>
+        <p>3 of the most important values to me</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/honesty.jpg">
+                    <h3>Honesty</h3>
+                    <p>Honesty goes a long way and if everyone was truly honest the world would be better for it.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/understanding.jpg">
+                    <h3>Understanding</h3>
+                    <p>If you take the time to understand yourself and others, daily life would be a lot smoother.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/perserverance.jpg">
+                    <h3>Perserverance</h3>
+                    <p>Perserverance is the only thing that can overcome trails and troubles. Keep embodying it.</p>
+                </div>
+            </div>
+    </section>
+
+<!-------- footer ---------->
+
+<!-------- footer ---------->
+
+<!-------- footer ---------->
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
